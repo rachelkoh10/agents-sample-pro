@@ -7,6 +7,7 @@ import { AssetTable } from './components/AssetTable';
 import { SearchModal } from './components/SearchModal';
 import { AssetDetailModal } from './components/AssetDetailModal';
 import { AIAssistantDrawer } from './components/AIAssistantDrawer';
+import { DisqusComments } from './components/DisqusComments';
 import {
   INITIAL_INDICES,
   ALL_MARKET_ASSETS,
@@ -159,6 +160,9 @@ export default function App() {
           watchlist={watchlist}
           onToggleWatchlist={toggleWatchlist}
         />
+
+        {/* Disqus Discussion Forum Embed */}
+        <DisqusComments />
       </main>
 
       {/* Editorial Footer */}
