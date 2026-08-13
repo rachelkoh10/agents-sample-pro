@@ -1,0 +1,6 @@
+{
+  "name": "Markets Terminal",
+  "description": "A high-performance financial market platform replicating TradingView with real-time indices, stock screeners, asset classes, detailed charts, and AI market insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
